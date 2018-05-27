@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9CB0552D20999021003BA283 /* SetGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB0552C20999021003BA283 /* SetGame.swift */; };
+		9CB0552F20999041003BA283 /* SetCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB0552E20999041003BA283 /* SetCard.swift */; };
+		9CB055312099AD52003BA283 /* ButtonSpecifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB055302099AD52003BA283 /* ButtonSpecifications.swift */; };
 		9CCD1CB92096FDDF0097CAA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CCD1CB82096FDDF0097CAA8 /* AppDelegate.swift */; };
 		9CCD1CBB2096FDDF0097CAA8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CCD1CBA2096FDDF0097CAA8 /* ViewController.swift */; };
 		9CCD1CBE2096FDDF0097CAA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CCD1CBC2096FDDF0097CAA8 /* Main.storyboard */; };
@@ -15,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9CB0552C20999021003BA283 /* SetGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetGame.swift; sourceTree = "<group>"; };
+		9CB0552E20999041003BA283 /* SetCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetCard.swift; sourceTree = "<group>"; };
+		9CB055302099AD52003BA283 /* ButtonSpecifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonSpecifications.swift; sourceTree = "<group>"; };
 		9CCD1CB52096FDDF0097CAA8 /* Set.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Set.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CCD1CB82096FDDF0097CAA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9CCD1CBA2096FDDF0097CAA8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,14 +60,25 @@
 		9CCD1CB72096FDDF0097CAA8 /* Set */ = {
 			isa = PBXGroup;
 			children = (
-				9CCD1CB82096FDDF0097CAA8 /* AppDelegate.swift */,
+				9CB055302099AD52003BA283 /* ButtonSpecifications.swift */,
+				9CB0552E20999041003BA283 /* SetCard.swift */,
+				9CB0552C20999021003BA283 /* SetGame.swift */,
 				9CCD1CBA2096FDDF0097CAA8 /* ViewController.swift */,
+				9CCD1CCF2096FE300097CAA8 /* Supporting Files */,
 				9CCD1CBC2096FDDF0097CAA8 /* Main.storyboard */,
 				9CCD1CBF2096FDE10097CAA8 /* Assets.xcassets */,
-				9CCD1CC12096FDE10097CAA8 /* LaunchScreen.storyboard */,
 				9CCD1CC42096FDE10097CAA8 /* Info.plist */,
 			);
 			path = Set;
+			sourceTree = "<group>";
+		};
+		9CCD1CCF2096FE300097CAA8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9CCD1CB82096FDDF0097CAA8 /* AppDelegate.swift */,
+				9CCD1CC12096FDE10097CAA8 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +153,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9CCD1CBB2096FDDF0097CAA8 /* ViewController.swift in Sources */,
+				9CB055312099AD52003BA283 /* ButtonSpecifications.swift in Sources */,
+				9CB0552D20999021003BA283 /* SetGame.swift in Sources */,
+				9CB0552F20999041003BA283 /* SetCard.swift in Sources */,
 				9CCD1CB92096FDDF0097CAA8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
